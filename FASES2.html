@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PROTOCOLOS DE COMUNICACION DE REDES </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>PROTOCOLO DE EJECUCION DE BLOQUEO DE DOS FASES	</h1>
+						
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="image main"><img src="images1/web-gdc339f535_1280.jpg" alt="" /></span>
+								<h2>¿Qué es el protocolo de ejecucion de bloqueo de dos fases ?</h2>
+								<p>    En bases de datos y procesamiento de transacciones, bloqueo de dos fases  es un control de concurrencia método que garantiza serializabilidad.También es el nombre del conjunto resultante de ﻿transacciones de bases de datos horarios Utiliza el protocolo cerraduras, aplicado por una transacción a datos, que pueden bloquear (interpretados como señales para parar) otras transacciones de acceso a los mismos datos durante la vida de la transacción.
+									El protocolo de bloqueo de dos fases se utiliza para garantizar que las transacciones se serialicen. En el protocolo de bloqueo de dos fases, cada transacción debe emitir todas las solicitudes de bloqueo antes de que pueda emitir cualquier solicitud de desbloqueo.
+									</p>
+								<p>   
+								</p>
+								
+								
+								<h2>FASE 1: </h2>
+							</header>
+							
+							
+							
+							<p><span class="image left">
+								<img src="images1/FASE1.jpeg" alt="" />
+							</span>
+							<p>
+								 
+
+								Fase de expansión(también conocido como fase de crecimiento): cerraduras se adquieren y no se lanzan cerraduras (sólo puede aumentar el número de bloqueos).
+								esta fase permite a la transacción emitir cualquier nueva solicitud de bloqueo que se requiera. Las solicitudes de desbloqueo no están permitidas en esta fase.
+
+							</p>
+							<br><br><h2>FASE 2:   </h2>
+							<p><span class="image right">
+								<img src="images1/CANDADO.jpeg" alt="" />
+							</span>
+							<p>
+								Fase menguante: los bloqueos son liberados y no se adquieren bloqueos.
+								esta fase permite que la transacción libere bloqueos adquiridos en la fase de expansión. Las nuevas solicitudes de bloqueo no están permitidas en esta fase.
+							
+							</p>
+					
+							</section>
+
+							
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>inicio</h2>
+							<ul class="actions">
+								<li><a href="unidad3 copy.html" class="button">Volver</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>CONTACTO</h2>
+							<dl class="alt">
+								<dt></dt>
+								
+								
+								
+								<dt>pedro_1320114012@uptecamac.edu.mx</dt>
+								<dt>lesly_1320114006@uptecamac.edu.mx
+								</dt>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
